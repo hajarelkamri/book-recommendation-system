@@ -44,31 +44,29 @@ Le projet utilise le **Book-Crossing Dataset** contenant :
 - Python 3.11 ou version supérieure
 - pip (gestionnaire de paquets Python)
 
-Installation
+### Installation
 
-Cloner le repository
-
+1. **Cloner le repository**  
+```bash
 git clone https://github.com/hajarelkamri/book-recommender-system.git
 cd book-recommender-system
-
-
 Créer un environnement virtuel
 
+bash
+Copier le code
 python -m venv venv
 source venv/bin/activate  # Sur Windows : venv\Scripts\activate
-
-
 Installer les dépendances
 
+bash
+Copier le code
 pip install -r requirements.txt
-
-
 Lancer l'application
 
+bash
+Copier le code
 streamlit run app.py
-
 Comment utiliser
-
 Lancez l'application avec streamlit run app.py
 
 Sélectionnez un livre dans le menu déroulant
@@ -78,7 +76,6 @@ Cliquez sur "Show Recommendation"
 Découvrez 5 livres similaires avec leurs couvertures
 
 Algorithmes et méthodologie
-
 Filtrage Collaboratif
 
 Le système utilise le filtrage collaboratif basé sur les similarités entre les utilisateurs et les livres.

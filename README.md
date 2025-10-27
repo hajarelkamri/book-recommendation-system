@@ -23,20 +23,6 @@ Ce projet implémente un système de recommandation de livres basé sur l'appren
 - **SciPy** - Calculs scientifiques et matrices creuses
 - **Pickle** - Sérialisation des modèles
 
-##  Structure du Projet
-book-recommender-system/
-├── artifacts/
-│ ├── model.pkl # Modèle ML entraîné
-│ ├── books_name.pkl # Noms des livres
-│ ├── final_rating.pkl # Données de ratings finales
-│ └── book_pivot.pkl # Matrice pivot des livres
-├── Data/
-│ ├── BX-Books.csv # Données des livres
-│ ├── BX-Users.csv # Données des utilisateurs
-│ └── BX-Book-Ratings.csv # Données des évaluations
-├── Books_Recommender.ipynb # Notebook d'analyse et d'entraînement
-├── app.py # Application Streamlit principale
-└── README.md # Documentation du projet
 
 
 ## 📊 Dataset

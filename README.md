@@ -1,7 +1,7 @@
 #  Book Recommender System
 
 Un système intelligent de recommandation de livres utilisant l'apprentissage automatique et le filtrage collaboratif.
-
+ 
 ##  Description du Projet
 
 Ce projet implémente un système de recommandation de livres basé sur l'apprentissage automatique. En utilisant des techniques de filtrage collaboratif et l'algorithme des k-plus proches voisins (KNN), le système suggère des livres similaires en fonction des préférences des utilisateurs.

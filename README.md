@@ -51,22 +51,15 @@ Le projet utilise le **Book-Crossing Dataset** contenant :
 git clone https://github.com/hajarelkamri/book-recommender-system.git
 cd book-recommender-system
 Créer un environnement virtuel
-
-bash
-Copier le code
 python -m venv venv
-source venv/bin/activate  # Sur Windows : venv\Scripts\activate
+source venv/bin/activate  
 Installer les dépendances
-
-bash
-Copier le code
 pip install -r requirements.txt
 Lancer l'application
-
-bash
-Copier le code
 streamlit run app.py
-Comment utiliser
+
+Comment utiliser  :
+
 Lancez l'application avec streamlit run app.py
 
 Sélectionnez un livre dans le menu déroulant

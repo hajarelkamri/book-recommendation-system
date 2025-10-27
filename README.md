@@ -25,7 +25,7 @@ Ce projet implémente un système de recommandation de livres basé sur l'appren
 
 
 
-## 📊 Dataset
+##  Dataset
 
 Le projet utilise le **Book-Crossing Dataset** contenant :
 - **271,360 livres** avec informations détaillées
@@ -44,21 +44,31 @@ Le projet utilise le **Book-Crossing Dataset** contenant :
 - Python 3.11 ou version supérieure
 - pip (gestionnaire de paquets Python)
 
-### Installation
+Installation
 
-1. **Cloner le repository**
-```bash
+Cloner le repository
+
 git clone https://github.com/hajarelkamri/book-recommender-system.git
 cd book-recommender-system
-2. Créer un environnement virtuel
+
+
+Créer un environnement virtuel
+
 python -m venv venv
-source venv/bin/activate
-3. Installer les dépendances
+source venv/bin/activate  # Sur Windows : venv\Scripts\activate
+
+
+Installer les dépendances
+
 pip install -r requirements.txt
-4.Lancer l'application
+
+
+Lancer l'application
+
 streamlit run app.py
 
- Comment Utiliser
+Comment utiliser
+
 Lancez l'application avec streamlit run app.py
 
 Sélectionnez un livre dans le menu déroulant
@@ -67,13 +77,16 @@ Cliquez sur "Show Recommendation"
 
 Découvrez 5 livres similaires avec leurs couvertures
 
- Algorithmes et Méthodologie
+Algorithmes et méthodologie
+
 Filtrage Collaboratif
+
 Le système utilise le filtrage collaboratif basé sur les similarités entre les utilisateurs et les livres.
 
 K-Nearest Neighbors (KNN)
-Algorithme: Brute-force pour les calculs de similarité
 
-Métrique: Distance euclidienne
+Algorithme : Brute-force pour les calculs de similarité
 
-Voisins: 6 livres les plus similaires
+Métrique : Distance euclidienne
+
+Voisins : 6 livres les plus similaires
